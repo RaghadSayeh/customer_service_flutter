@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class BottomWaveClipper extends CustomClipper<Path> {
-  int first_age = 12;
   @override
   Path getClip(Size size) {
     var path = new Path();
