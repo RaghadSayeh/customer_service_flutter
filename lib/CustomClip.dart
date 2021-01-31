@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class BottomWaveClipper extends CustomClipper<Path> {
-  int i = 0;
-
   @override
   Path getClip(Size size) {
     var path = new Path();
