@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
 
 class HomePage extends StatelessWidget {
   int g = 0;
+  int z = 70;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
