@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
-  int z = 70;
   String test = "location";
   @override
   Widget build(BuildContext context) {
