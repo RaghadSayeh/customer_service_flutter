@@ -8,6 +8,9 @@ class FadeAnimation extends StatelessWidget {
   FadeAnimation(this.delay, this.child);
 
   @override
+  void initState() {}
+
+  @override
   Widget build(BuildContext context) {
     final tween = MultiTrackTween([
       Track("opacity")
